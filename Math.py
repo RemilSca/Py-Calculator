@@ -23,14 +23,11 @@ def Quotient():
 # Answers
 if action == "+":
     Addition() 
-else:
-    if action == "-":
-            Difference()
-    else:
-        if action == "*":
-            Product()
-        else:
-            if action == "/":
-                Quotient()
+elif action == "-":
+    Difference()
+elif action == "*":
+    Product()
+elif action == "/":
+    Quotient()
 
 input("Press 'Enter' to exit ")
